@@ -1,0 +1,831 @@
+@media(min-width: 1351px) and (max-width: 1675px)
+{
+	.logo h1
+	{
+		font-size:1.2em;
+	}
+	
+	.fast_contact
+	{
+		padding:8px 5px;
+		font-size:1em;
+	}
+	
+	.container_fluid_stopka
+	{
+		padding:0 80px;
+	}
+	
+	.portfolio_border
+	{
+		margin:20px 70px;
+	}
+	
+	.portfolio_border_text1, .portfolio_border_text2, .portfolio_border_text3
+	{
+		padding-top:150px;
+	}
+	
+	.portfolio_text_foto
+	{
+		padding-top:150px;
+		border:20px solid #000;
+	}
+	
+	.portfolio_text_foto_min h4
+	{
+		font-size:25px;
+	}
+	
+	.portfolio_text_foto_min
+	{
+		padding-top:100px;
+	}
+	
+}
+
+@media(min-width: 1200px) and (max-width: 1350px)
+{
+	.logo h1
+	{
+		font-size:1em;
+	}
+	
+	.fast_contact
+	{
+		padding:8px 5px;
+		font-size:0.95em;
+	}
+	
+	.ikonka::before, .ikonka::after
+	{
+		width:30px;
+		height:10px;
+		left:0;
+	}
+	
+	.carousel-control-next-icon, .carousel-control-prev-icon
+	{
+		width: 25px;
+		height: 25px;
+	}
+	
+	.carousel-caption
+	{
+		font-size:35px;
+	}
+
+	.carousel-caption h5
+	{
+		font-size:70px;
+	}
+	
+	.container_fluid_stopka
+	{
+		padding:0 80px;
+	}
+	
+	.stopka
+	{
+		padding: 50px 50px 20px;
+	}
+	
+	.stopka h6
+	{
+		font-size:20px;
+		letter-spacing:1px;
+		margin:0 15px 20px;
+	}
+	
+	.stopka p, .stopka li
+	{
+		padding:10px 20px;
+		font-size:15px;
+	}
+
+	.stopka_4
+	{
+		padding-top:20px;
+		letter-spacing:1px;
+	}
+	
+	.portfolio_border
+	{
+		margin:20px 50px;
+	}
+	
+	.portfolio_border_text1, .portfolio_border_text2, .portfolio_border_text3
+	{
+		padding-top:100px;
+		transform:translateY(40px);
+	}
+	
+	.portfolio_text_foto
+	{
+		padding-top:100px;
+		border:18px solid #000;
+	}
+	
+	.portfolio_text_foto_min h4
+	{
+		font-size:22px;
+	}
+	
+	.portfolio_text_foto_min
+	{
+		padding-top:70px;
+	}
+	
+}
+
+
+@media(min-width: 992px) and (max-width: 1199px)
+{
+	.logo h1
+	{
+		font-size:.83em;
+	}
+	
+	.nav-link
+	{
+		font-size:1em;
+	}
+	
+	.fast_contact
+	{
+		padding:5px 3px;
+		font-size:.8em;
+	}
+	
+	.carousel-indicators li 
+	{
+		width: 30px;
+		height: 14px;
+	}
+	
+		.ikonka::before, .ikonka::after
+	{
+		width:30px;
+		height:10px;
+		left:0;
+	}
+	
+	.carousel-control-next-icon, .carousel-control-prev-icon
+	{
+		width: 25px;
+		height: 25px;
+	}
+	
+	.carousel-caption
+	{
+		font-size:30px;
+	}
+
+	.carousel-caption h5
+	{
+		font-size:60px;
+	}
+	
+	.kontakt_container
+	{
+		padding:100px 65px;
+	}
+
+	.kontakt_box h4
+	{
+		font-size:50px;
+		letter-spacing:3px;
+	}
+	
+	.kontakt_text p 
+	{
+		font-size:40px;
+	}
+	
+	.kontakt_icon_box
+	{
+		padding:80px 0;
+	}
+	
+	.kontakt_icon_circle
+	{
+		width:180px;
+		height:180px;
+		font-size:50px;
+		line-height:170px;
+		border:4px solid transparent;
+	}
+	
+	.kontakt_icon_box p
+	{
+		padding-top:20px;
+		font-size:18px;
+	}
+	
+	.container_fluid_stopka
+	{
+		padding:0 60px;
+	}
+	
+	.stopka
+	{
+		padding: 40px 40px 17px;
+	}
+	
+	.stopka h6
+	{
+		font-size:25px;
+		letter-spacing:1px;
+		margin:0 15px 20px;
+	}
+	
+	.stopka p, .stopka li
+	{
+		padding:10px 20px;
+		font-size:16px;
+	}
+
+	.stopka_4
+	{
+		padding-top:18px;
+		letter-spacing:1px;
+	}
+	
+	.portfolio_border
+	{
+		margin:15px 30px;
+	}
+	
+	.portfolio_border_text
+	{
+		padding-top:100px;
+		transform:translateY(20px);
+	}
+	
+	.portfolio_border_text h2
+	{
+		font-size:25px;
+	}
+	
+	.portfolio_text_foto
+	{
+		padding-top:70px;
+		border:15px solid #000;
+	}
+	
+	.portfolio_text_foto h4
+	{
+		font-size:30px;
+	}
+	
+	.portfolio_text_foto_min
+	{
+		padding-top:50px;
+	}
+	
+	.portfolio_text_foto_min h4
+	{
+		font-size:25px;
+	}
+	
+}
+
+@media(min-width: 768px) and (max-width: 991px)
+{
+	.logo h1
+	{
+		font-size:1.13em;
+	}
+	
+	.nav-link
+	{
+		font-size:1em;
+	}
+	
+		.carousel ol
+	{
+		margin-bottom: 1.2rem;
+	}
+	
+	.carousel-indicators li 
+	{
+		width: 25px;
+		height: 10px;
+	}
+	
+	.ikonka::before, .ikonka::after
+	{
+		width:30px;
+		height:10px;
+		left:0;
+	}
+	
+	.carousel-control-next-icon, .carousel-control-prev-icon
+	{
+		width: 25px;
+		height: 25px;
+	}
+	
+	.carousel-caption
+	{
+		font-size:22px;
+	}
+
+	.carousel-caption h5
+	{
+		font-size:45px;
+	}
+	
+	.napisy_h3
+	{
+		font-size:2em;
+		letter-spacing:1px;
+	}
+
+	.napisy_p
+	{
+		font-size:1.2em;
+		letter-spacing:0px;
+	}
+
+	.napisy_p::after
+	{
+		width:200px;
+	}
+	
+	.kontakt_container
+	{
+		padding:100px 45px;
+	}
+
+	.kontakt_box h4
+	{
+		font-size:40px;
+		letter-spacing:2px;
+	}
+	
+	.kontakt_text p 
+	{
+		font-size:30px;
+	}
+	
+	.kontakt_icon_box
+	{
+		padding:50px 0;
+	}
+	
+	.kontakt_icon_circle
+	{
+		width:150px;
+		height:150px;
+		font-size:40px;
+		line-height:143px;
+		border:4px solid transparent;
+	}
+	
+	.kontakt_icon_box p
+	{
+		padding-top:15px;
+		font-size:15px;
+	}	
+	
+	.container_fluid_stopka
+	{
+		padding:0 30px;
+	}
+	
+	.stopka
+	{
+		padding: 30px 30px 10px;
+	}
+	
+	.stopka h6
+	{
+		font-size:25px;
+		letter-spacing:1px;
+		margin:0 15px 20px;
+	}
+	
+	.stopka p, .stopka li
+	{
+		padding:10px 20px;
+		font-size:16px;
+	}
+
+	.stopka_4
+	{
+		padding-top:18px;
+		letter-spacing:1px;
+	}
+	
+	.portfolio_border
+	{
+		margin:10px 20px;
+	}
+	
+	.portfolio_border_text
+	{
+		padding-top:50px;
+		transform:translateY(20px);
+	}
+	
+	.portfolio_border_text h2
+	{
+		font-size:20px;
+	}
+	
+	.portfolio_border_text p
+	{
+		font-size:13px;
+	}
+	
+	.portfolio_text_foto
+	{
+		padding-top:40px;
+		border:12px solid #000;
+	}
+	
+	.portfolio_text_foto h4
+	{
+		font-size:23px;
+	}
+	
+	.portfolio_text_foto p
+	{
+		font-size:15px;
+	}
+	
+	.portfolio_text_foto_min
+	{
+		padding-top:30px;
+	}
+	
+	.portfolio_text_foto_min h4
+	{
+		font-size:15px;
+	}
+	
+}
+
+@media(min-width: 576px) and (max-width: 767px)
+{
+	.logo h1
+	{
+		font-size:.8em;
+	}
+	
+	.nav-link
+	{
+		font-size:.85em;
+		padding: 5px 7px;
+	}
+
+	.nav-link span
+	{
+		height:1px;
+	}
+
+	.carousel ol
+	{
+		margin-bottom: 1rem;
+	}
+
+	.carousel-indicators li 
+	{
+		width: 20px;
+		height: 8px;
+	}
+	
+	.ikonka::before, .ikonka::after
+	{
+		width:30px;
+		height:10px;
+		left:0;
+	}
+	
+	.carousel-control-next-icon, .carousel-control-prev-icon
+	{
+		width: 25px;
+		height: 25px;
+	}	
+	
+	.napisy_h3
+	{
+		font-size:1.45em;
+		letter-spacing:1px;
+	}
+
+	.napisy_p
+	{
+		font-size:1em;
+		letter-spacing:0px;
+	}
+
+	.napisy_p::after
+	{
+		width:130px;
+	}	
+	
+	.kontakt_container
+	{
+		padding:100px 30px;
+	}
+
+	.kontakt_box h4
+	{
+		font-size:30px;
+		letter-spacing:2px;
+	}
+	
+	.kontakt_text p 
+	{
+		font-size:25px;
+	}	
+	
+	.kontakt_icon_box
+	{
+		padding:30px 0;
+	}
+	
+	.kontakt_icon_circle
+	{
+		width:130px;
+		height:130px;
+		font-size:35px;
+		line-height:132px;
+		border:3px solid transparent;
+	}
+	
+	.kontakt_icon_box p
+	{
+		padding-top:12px;
+		font-size:13px;
+	}		
+	
+	.container_fluid_stopka
+	{
+		padding:0 30px;
+	}
+	
+	.stopka
+	{
+		padding: 20px 20px 7px;
+	}
+	
+	.stopka h6
+	{
+		font-size:20px;
+		letter-spacing:1px;
+		margin:0 15px 20px;
+	}
+	
+	.stopka p, .stopka li
+	{
+		padding:10px 20px;
+		font-size:13px;
+	}
+
+	.stopka_4
+	{
+		padding-top:13px;
+		letter-spacing:1px;
+	}
+	
+	.portfolio_border
+	{
+		margin:5px 10px;
+	}
+	
+	.portfolio_border_text
+	{
+		padding-top:40px;
+		transform:translateY(20px);
+	}
+	
+	.portfolio_border_text h2
+	{
+		font-size:13px;
+	}
+	
+	.portfolio_border_text p
+	{
+		font-size:8px;
+	}
+	
+	.portfolio_text_foto
+	{
+		padding-top:80px;
+		border:20px solid #000;
+	}
+	
+	.portfolio_text_foto h4
+	{
+		font-size:35px;
+	}
+	
+	.portfolio_text_foto p
+	{
+		font-size:20px;
+	}
+	
+	.portfolio_text_foto_min
+	{
+		padding-top:30px;
+	}
+	
+	.portfolio_text_foto_min h4
+	{
+		font-size:15px;
+	}
+	
+}
+
+@media(max-width: 575px)
+{	
+	.logo
+	{
+		padding:0px;
+	}
+
+	.logo h1
+	{
+		text-align:center;
+		font-size:1.1em;
+		margin-bottom:0;
+	}
+	
+	.nav-link
+	{
+		font-size:.83em;
+		padding: 13px 7px 9px;
+	}
+	
+	.nav-link span
+	{
+		margin-bottom:5px;
+		height:1px;
+	}
+	
+	.carousel ol
+	{
+		margin-bottom: 0.5rem;
+	}
+	
+	.carousel-indicators li 
+	{
+		width: 20px;
+		height: 8px;
+	}
+	
+	.ikonka::before, .ikonka::after
+	{
+		width:15px;
+		height:4px;
+		left:0;
+	}
+	
+	.carousel-control-next-icon, .carousel-control-prev-icon
+	{
+		width: 12px;
+		height: 12px;
+	}
+	
+		.napisy_h3
+	{
+		font-size:1.25em;
+		letter-spacing:1px;
+	}
+
+	.napisy_p
+	{
+		font-size:1em;
+		letter-spacing:0px;
+	}
+
+	.napisy_p::after
+	{
+		top:105%;
+		left:1%;
+		width:101%;
+	}
+
+	.kontakt_container
+	{
+		padding:100px 30px;
+	}
+
+	.kontakt_box h4
+	{
+		font-size:30px;
+		letter-spacing:2px;
+	}
+	
+	.kontakt_text p 
+	{
+		padding-top:20px;
+		font-size:20px;
+	}	
+	
+	.kontakt_icon_box
+	{
+		padding:20px 0;
+	}
+	
+	.kontakt_icon_circle
+	{
+		width:80px;
+		height:80px;
+		font-size:20px;
+		line-height:75px;
+		border:2px solid transparent;
+	}
+	
+	.kontakt_icon_box p
+	{
+		padding-top:8px;
+		font-size:8px;
+	}		
+	
+	.container_fluid_stopka
+	{
+		padding:0 20px;
+	}
+	
+	.stopka
+	{
+		padding: 20px 20px 7px;
+	}
+	
+	.stopka h6
+	{
+		font-size:20px;
+		letter-spacing:1px;
+		margin:0 15px 20px;
+	}
+	
+	.stopka p, .stopka li
+	{
+		padding:10px 20px;
+		font-size:13px;
+	}
+
+	.stopka_4
+	{
+		padding-top:13px;
+		letter-spacing:1px;
+	}
+	
+	.scrollup
+	{
+		bottom:15px;
+		right:15px;
+	}
+	
+	.portfolio_border
+	{
+		margin:3px 4px;
+	}
+	
+	.portfolio_border_text
+	{
+		padding-top:0px;
+		transform:translateY(10px);
+	}
+	
+	.portfolio_border_text h2
+	{
+		font-size:8px;
+	}
+	
+	.portfolio_border_text p
+	{
+		font-size:6px;
+	}
+	
+	.portfolio_text_foto
+	{
+		padding-top:20px;
+		border:10px solid #000;
+	}
+	
+	.portfolio_text_foto h4
+	{
+		font-size:15px;
+	}
+	
+	.portfolio_text_foto p
+	{
+		font-size:8px;
+	}
+	
+	.portfolio_text_foto_min
+	{
+		padding-top:20px;
+	}
+	
+	.portfolio_text_foto_min h4
+	{
+		font-size:15px;
+	}
+	
+}

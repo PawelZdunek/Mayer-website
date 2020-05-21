@@ -1,0 +1,677 @@
+*
+{
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+}
+
+
+body
+{
+	background-color:#fff;
+	font-family: 'Montserrat', sans-serif;
+}
+
+a
+{
+	text-decoration:none;
+}
+
+a:hover
+{
+	text-decoration:none;
+}
+
+/* 1. Nagłówek */
+
+#opakowanie
+{
+	background-color:#fff;
+	padding-top:15px;
+	-webkit-box-shadow: 0px 0px 50px -27px rgba(0,0,0,0.75);
+	-moz-box-shadow: 0px 0px 50px -27px rgba(0,0,0,0.75);
+	box-shadow: 0px 0px 50px -27px rgba(0,0,0,0.75);
+}
+
+.logo
+{
+	color:#000;
+	padding:10px;
+}
+
+
+.logo h1
+{
+	font-size:1.5em;
+	font-weight:300;
+}
+
+.logo b
+{
+	font-weight:700;
+}
+
+.nav-link
+{
+	position:relative;
+	color:#000;
+	font-size:1.3em;
+	font-weight:400;
+	transition:color 1s ease-in-out;
+	overflow:hidden;
+}
+
+.nav-link:hover
+{
+	color:#c9ac63;
+}
+
+.active
+{
+	color:#c9ac63;
+}
+
+.active span
+{
+	position:absolute;
+	display:block;
+	bottom:0;
+	left:0;
+	background-color:#000;
+	height:2px;
+	width:100%;
+}
+
+.nav-link span
+{
+	position:absolute;
+	display:block;
+	bottom:0;
+	height:2px;
+	width:100%;
+}
+
+.first_span
+{
+	left:-100%;
+	background:linear-gradient(90deg,transparent,#c9ac63);
+	transition:transform 1s;
+}
+
+.nav-link:hover .first_span
+{
+	transform:translateX(200%);
+}
+
+.active:hover .first_span
+{
+	transform:translateX(0%);
+}
+
+.second_span
+{
+	left:-200%;
+	background:linear-gradient(90deg,#000,transparent);
+	transition:transform 1s, background 3.5s ;
+}
+
+.nav-link:hover .second_span
+{
+	transform:translateX(200%);
+	background:#000;
+}
+
+.active:hover .second_span
+{
+	transform:translateX(0%);
+}
+
+.fast_contact
+{
+	display:inline-block;
+	float:right;
+	padding:10px 20px;
+	font-size:1.2em;
+	transition:transform .2s ease-in-out;
+}
+
+.fast_contact:hover
+{
+	transform:scale(1.01);	
+}
+
+.fast_contact a
+{
+	color:#000;
+	transition:color .2s ease-in-out;
+}
+
+.fast_contact:hover a
+{
+	color:#c9ac63;
+}
+
+/* 2. Strona główna */
+
+/* 2a) Karuzela na górze */
+
+.bok
+{
+	padding-top:100px;
+	z-index:11;
+}
+
+.carousel ol
+{
+    margin-bottom: 2rem;
+}
+
+.carousel-indicators li 
+{
+    width: 30px;
+    height: 20px;
+	background-color:#c9ac63;
+	opacity:.6;
+}
+
+.carousel-control-next-icon, .carousel-control-prev-icon
+ {
+    width: 40px;
+    height: 40px;
+}
+
+.carousel-control-next-icon, .carousel-control-prev-icon
+{
+	background-image:none;
+	position:relative;
+}
+
+.ikonka::before, .ikonka::after
+{
+	content: ' ';
+	position:absolute;
+	width:50px;
+	height:15px;
+	left:0;
+	background-color:#fff;
+	background-color:#c9ac63;
+}
+
+.ikonka::after
+{
+	bottom:0;
+}
+
+.ikonka::before
+{
+	top:0;
+}
+
+.carousel-control-prev-icon::before, .carousel-control-next-icon::after
+{
+	transform:rotate(-45deg);
+}
+
+.carousel-control-prev-icon::after, .carousel-control-next-icon::before
+{
+	transform:rotate(45deg);
+}
+
+.carousel-caption
+{
+    bottom: 50%;
+	font-size:50px;
+	color:#555;
+}
+
+.carousel-caption h5
+{
+	font-size:100px;
+}
+
+.nakladka
+{
+	position:absolute;
+	top:50%;
+	left:50%;
+	margin-right: -50%;
+    transform: translate(-50%, -50%);
+}
+
+.nakladka p
+{
+	font-weight:500;
+}
+	
+@-webkit-keyframes opacity {
+	0% 
+	{
+		transform: translate(-50%, -70%);
+		opacity:.1;
+	}
+
+	100%
+	{
+		transform: translate(-50%, -70%);
+		opacity:1;
+	}
+ }	
+
+.nakladka_1 
+{
+	-webkit-animation: opacity 2s  forwards;
+}
+
+ @-webkit-keyframes hop {
+	0% 
+	{
+		transform: translate(-63%, -20%);
+		opacity:0;
+	}
+
+
+	50%
+	{
+		transform: translate(-63%, -80%);
+	}	
+
+	100%
+	{
+		transform: translate(-63%, -50%);
+		opacity:1;
+	}
+ }
+
+.nakladka_2
+{
+	-webkit-animation: hop 2s forwards;
+	color:#fff;
+}
+
+@-webkit-keyframes left_hop {
+	0% 
+	{
+		transform: translate(-20%, -35%);
+		opacity:.1;
+	}
+
+	50%
+	{
+		transform: translate(-100%, -35%);
+		opacity:.5;
+	}	
+
+	100%
+	{
+		transform: translate(-80%, -35%);
+		opacity:1;
+	}
+ }
+
+.nakladka_3
+{
+	-webkit-animation: left_hop 2s  forwards;
+	color:#113366;
+}
+
+/* 2b) Napis z kreską */
+
+.napisy
+{
+	padding:100px 40px 0;
+}
+
+.napisy_h3
+{
+	font-size:2.2em;
+	font-weight:500;
+	letter-spacing:2px;
+}
+
+.napisy_p
+{
+	font-size:1.5em;
+	font-weight:400;
+	letter-spacing:1px;
+	position:relative;
+	display:inline-block;
+	color:#c9ac63;
+}
+
+.napisy_p::after
+{
+	content:' ';
+	display:block;
+	position:absolute;
+	top:50%;
+	left:102%;
+	width:300px;
+	height:1px;
+	background-color:#000;
+}
+
+/* 2c) Zdjęcia z napisami  */
+
+.container_index_foto
+{
+	padding-top:100px;
+}
+
+.index_border
+{
+	position:relative;
+	margin:20px 80px;
+	text-align:center;
+}
+
+.index_foto_img
+{
+	width:100%;	
+	height:100%;
+	object-fit:cover;
+}
+
+.index_foto_text
+{
+	padding-top:250px;
+	opacity:0;
+	transform:translateY(40px);
+	transition:transform 1s ease-in-out, opacity 1s ease-in-out;
+	text-align:center;
+}
+
+.index_fade
+{
+	opacity:1;
+	transform:translateX(0px);
+}
+
+
+/* scroll */
+
+.scrollup
+{
+	width:60px;
+	height:60px;
+	border-radius:10px;
+	text-decoration:none;
+	background-color:#c9ac63;
+	position:fixed;
+	bottom:50px;
+	right:50px;
+	z-index:10;
+	overflow:hidden;
+}
+
+.scrollup::after, .scrollup::before
+{
+	content: ' ';
+	display:block;
+	position:absolute;
+	height:25px;
+	width:25px;
+	top:37%;
+	left:30%;
+	border: 7px solid #fff;
+	transform:rotate(45deg);
+	border-bottom:0;
+	border-right:0;
+}
+
+.scrollup::before
+{
+	top:137%;
+}
+
+.scrollup:hover::after
+{
+	transform: translateY(-240%) rotate(45deg);
+	transition: transform 0.5s ;
+}
+
+.scrollup:hover::before
+{
+	transform: translateY(-240%) rotate(45deg);
+	transition: transform 0.5s ;
+}
+
+/* 3. Portfolio */
+
+.portfolio_container
+{
+	padding:100px 50px 50px;
+}
+
+.portfolio_border_big
+{
+	transition:opacity .2s ease-out;
+	position:relative;
+	margin:25px 10px;
+	text-align:center;
+}
+
+.portfolio_foto_img
+{
+	width:100%;	
+	object-fit:cover;
+}
+
+.portfolio_text_foto
+{
+	position:absolute;
+	top:0;
+	left:0;
+	width:100%;
+	height:100%;
+	padding-top:200px;
+	background-color:#333;
+	color:#fff;
+	border:20px solid #000;
+	z-index:5;
+	opacity:0;
+	transition: opacity .4s;
+}
+
+.portfolio_text_foto h4
+{
+	font-size:40px;
+}
+
+.portfolio_text_foto p
+{
+	font-size:20px;
+}
+
+.portfolio_text_foto:hover
+{
+	opacity:.7;
+}
+
+.portfolio_border_min
+{
+	transition:opacity .2s ease-out;
+	position:relative;
+	margin:25px 10px;
+	text-align:center;
+}
+
+.portfolio_text_foto_min
+{
+	padding-top:150px;
+}
+
+.portfolio_text_foto_min h4
+{
+	font-size:30px;
+	text-align:center;
+}
+
+/* 4. Kontakt  */
+
+.kontakt_container
+{
+	width:100%;
+	padding:100px 85px;
+}
+
+.kontakt_box
+{
+	width:100%;
+	padding:15px;
+	background-color:#aaa;
+	color:#fff;
+	text-align:center;
+}
+
+.kontakt_box h4
+{
+	font-size:60px;
+	font-weight:400;
+	letter-spacing:4px;
+}
+
+.kontakt_text
+{
+	text-align:center;
+}
+
+.kontakt_text p 
+{
+	padding-top:20px;
+	font-size:50px;
+}
+
+.kontakt_icon_box
+{
+	padding:100px 0;
+	margin:0 auto;
+	text-align:center;
+}
+
+.kontakt_icon_box p
+{
+	padding-top:30px;
+	font-size:18px;
+	font-weight:500;
+}
+
+.kontakt_icon_box a
+{
+	color:#333;
+}
+
+.kontakt_icon_circle
+{
+	width:200px;
+	height:200px;
+	margin: auto;
+	background-color:#aaa;
+	color:#fff;
+	font-size:55px;
+	line-height:190px;
+	border-radius:50%;
+	transition:transform 0.3s ease, background-color .3s ease, border-color .1s;
+	border:5px solid transparent;
+}
+
+.kontakt_icon_circle:hover
+{
+	transform:scale(1.2);
+	background-color:#c9ac63;
+	border-color:#ebcf85;
+}
+
+
+.google_map iframe
+{
+	width:100%;
+}
+
+/*  Stopka  */
+
+.container_fluid_stopka
+{
+	padding:0 100px;
+}
+
+.container_stopka
+{
+	padding:0px;
+}	
+
+.stopka
+{
+	width:100%;
+	margin:0;
+	padding: 50px 50px 20px;
+	background-color:#030314;
+	font-size:35px;
+	color:#fff;
+}
+
+.stopka h6
+{
+	font-size:25px;
+	font-weight:300;
+	letter-spacing:1px;
+	margin:0 15px 30px;
+}
+
+.stopka b
+{
+	font-weight:500;
+}
+
+.stopka a
+{
+	color:#fff;
+	transition:color .2s;
+}
+
+.stopka a:hover
+{
+	color:#fcdf96;
+}
+
+.stopka p
+{
+	margin-bottom:5px;
+}
+
+.stopka p, .stopka li
+{
+	padding:10px 25px;
+	font-size:18px;
+	font-weight:300;
+}
+
+.stopka_1 p 
+{
+	font-style:italic;
+	padding:10px 15px;
+}
+
+.stopka_2 ol
+{
+	list-style-type: none;
+	font-size:16px;
+}
+
+.stopka_2 li
+{
+	padding:5px 25px;
+	transition:transform .2s;
+}
+
+.stopka_4
+{
+	padding-top:20px;
+	text-align:center;
+	letter-spacing:1px;
+}
+
+.stopka_4 p
+{
+	margin:0;
+}
+
